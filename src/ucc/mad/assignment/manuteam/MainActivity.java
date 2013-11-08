@@ -1,35 +1,36 @@
 package ucc.mad.assignment.manuteam;
 
-import java.util.List;
 
+import ucc.mad.assignment.adapters.CustomAdapter;
 import ucc.mad.assignment.data.DataManagement;
-import ucc.mad.assignment.data.Player;
 
 import com.example.manuteam.R;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
-import android.widget.TextView;
+import android.widget.ListView;
 
 public class MainActivity extends Activity {
 
-	private TextView tv;
+	private ListView playerList;
 	
-	private List<Player> playersList;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		playerList = (ListView)findViewById(R.id.list);
+		DataManagement dm = new DataManagement();
 		
-		tv = (TextView) findViewById(R.id.helloWorld);
-		readData();
-		
-		String listText = "";
-		for(Player p:playersList){
-			listText += p.getName()+"\n";
+		CustomAdapter adapter;
+		try {
+			adapter = new CustomAdapter(this,dm.getPlayers(this));
+			playerList.setAdapter(adapter);
+		} catch (Exception e) {
+			Log.e("MainActivity","Error reading data file");
 		}
-		tv.setText(listText);
+		
 	}
 
 	@Override
@@ -39,13 +40,5 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	private void readData(){
-		try {
-			DataManagement dm = new DataManagement();
-			playersList = dm.getPlayers(this);
-		} catch (Exception e) {
-			tv.setText(e.getMessage());
-		}
-	}
 
 }

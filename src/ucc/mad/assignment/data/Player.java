@@ -1,10 +1,16 @@
 package ucc.mad.assignment.data;
 
+import java.io.Serializable;
+
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
 
 @Root
-public class Player {
+public class Player implements Serializable, Comparable<Player> {
+
+	private static final long serialVersionUID = -1484539900099981115L;
+	
+	
 	@Element
 	private String name;
 	@Element
@@ -78,6 +84,16 @@ public class Player {
 	}
 	public void setDescription(PersonDescription description) {
 		this.description = description;
+	}
+	@Override
+	public int compareTo(Player another) {
+		if(Integer.valueOf(this.getNumber()) < Integer.valueOf(another.getNumber())){
+			return -1;
+		}
+		else if(Integer.valueOf(this.getNumber()) > Integer.valueOf(another.getNumber())){
+			return 1;
+		}
+		return 0;
 	}
 	
 	
