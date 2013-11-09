@@ -48,7 +48,7 @@ public class CustomAdapter extends ArrayAdapter<Player> {
 		
 		int drawableResourceId = c.getResources().getIdentifier(player.getProfileimage(), "drawable", c.getPackageName());
 		icon.setImageResource(drawableResourceId);
-		
+		icon.setAdjustViewBounds(true);
 		//return the view
 		
 		return row;

@@ -30,6 +30,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.manuteam.MainActivity" />
         </activity>
+        <activity
+            android:name="ucc.mad.assignment.manuteam.PlayerMoreInfoActivity"
+            android:label="@string/title_activity_palayer_more_info"
+            android:parentActivityName="ucc.mad.assignment.manuteam.PlayerDetailsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ucc.mad.assignment.manuteam.PlayerDetailsActivity" />
+        </activity>
     </application>
 
 </manifest>

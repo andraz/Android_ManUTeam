@@ -85,6 +85,7 @@ public class Player implements Serializable, Comparable<Player> {
 	public void setDescription(PersonDescription description) {
 		this.description = description;
 	}
+	
 	@Override
 	public int compareTo(Player another) {
 		if(Integer.valueOf(this.getNumber()) < Integer.valueOf(another.getNumber())){

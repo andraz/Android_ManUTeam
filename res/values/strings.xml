@@ -5,5 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_player_details">PlayerDetailsActivity</string>
+    <string name="title_activity_palayer_more_info">PalayerMoreInfoActivity</string>
 
 </resources>
