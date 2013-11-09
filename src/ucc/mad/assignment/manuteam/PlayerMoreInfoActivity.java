@@ -1,5 +1,8 @@
 package ucc.mad.assignment.manuteam;
 
+import ucc.mad.assignment.adapters.PlayerInfoPagerAdapter;
+import ucc.mad.assignment.data.Player;
+
 import com.example.manuteam.R;
 import com.example.manuteam.R.layout;
 import com.example.manuteam.R.menu;
@@ -8,19 +11,44 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.NavUtils;
+import android.support.v4.view.ViewPager;
 import android.annotation.TargetApi;
 import android.content.Intent;
 import android.os.Build;
 
-public class PlayerMoreInfoActivity extends Activity {
+public class PlayerMoreInfoActivity extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_palayer_more_info);
-		// Show the Up button in the action bar.
 		setupActionBar();
+		
+		Intent myLocalIntent = getIntent();
+		Bundle myBundle = myLocalIntent.getExtras();
+		Player player = (Player)myBundle.getSerializable("player");
+		
+		TextView number = (TextView)findViewById(R.id.playerNumber);
+		TextView name = (TextView)findViewById(R.id.playerName);
+		
+		number.setText(player.getNumber()+". ");
+		name.setText(player.getName());
+		
+		ViewPager pager = (ViewPager) findViewById(R.id.pager);
+		 
+        /** Getting fragment manager */
+        FragmentManager fm = getSupportFragmentManager();
+ 
+        /** Instantiating FragmentPagerAdapter */
+        PlayerInfoPagerAdapter pagerAdapter = new PlayerInfoPagerAdapter(fm,player);
+ 
+        
+        /** Setting the pagerAdapter to the pager object */
+        pager.setAdapter(pagerAdapter);
 	}
 
 	/**
