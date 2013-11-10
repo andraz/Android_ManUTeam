@@ -47,6 +47,7 @@ public class PlayerDetailsActivity extends Activity {
 		mainImage.setImageResource(drawableResourceId);
 		mainImage.setAdjustViewBounds(true);
 		
+		
 	}
 
 	/**

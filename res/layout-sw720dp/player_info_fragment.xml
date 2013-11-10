@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey" >
+	<TableLayout 
+   		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" >
+ 
+	    <!-- 2 columns -->
+	    <TableRow
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dip" >
+	 		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="25sp"
+		        android:textStyle="bold"
+		        android:text="Position "
+		        android:layout_marginRight="5dp" />
+		    <TextView
+		        android:id="@+id/position"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="25sp"
+		        android:text="Striker" />
+	        
+	    </TableRow>
+	    <TableRow
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dip" >
+	 		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="25sp"
+		        android:textStyle="bold"
+		        android:text="Appearances "
+		        android:layout_marginRight="5dp" />
+		    <TextView
+		        android:id="@+id/appearances"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="25sp"
+		        android:text="125" />
+	        
+	    </TableRow>
+	    <TableRow
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dip" >
+	 		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="25sp"
+		        android:textStyle="bold"
+		        android:text="Goals "
+		        android:layout_marginRight="5dp" />
+		    <TextView
+		        android:id="@+id/goals"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="25sp"
+		        android:text="17" />
+	        
+	    </TableRow>
+    </TableLayout>
+    
+   
+
+</LinearLayout>

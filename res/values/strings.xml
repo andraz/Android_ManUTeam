@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ManUTeam</string>
+    <string name="app_name">Manchester United</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_player_details">PlayerDetailsActivity</string>
-    <string name="title_activity_palayer_more_info">PalayerMoreInfoActivity</string>
-    <string name="title_activity_player_web_view">PlayerWebViewActivity</string>
+    <string name="title_activity_player_details">Player</string>
+    <string name="title_activity_palayer_more_info">Player profile</string>
+    <string name="title_activity_player_web_view">Player webpage</string>
 
 </resources>
