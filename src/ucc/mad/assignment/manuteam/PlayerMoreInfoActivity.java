@@ -21,7 +21,7 @@ import android.content.Intent;
 import android.os.Build;
 
 public class PlayerMoreInfoActivity extends FragmentActivity {
-
+	private Player player;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -30,7 +30,7 @@ public class PlayerMoreInfoActivity extends FragmentActivity {
 		
 		Intent myLocalIntent = getIntent();
 		Bundle myBundle = myLocalIntent.getExtras();
-		Player player = (Player)myBundle.getSerializable("player");
+		player = (Player)myBundle.getSerializable("player");
 		
 		TextView number = (TextView)findViewById(R.id.playerNumber);
 		TextView name = (TextView)findViewById(R.id.playerName);
@@ -64,7 +64,8 @@ public class PlayerMoreInfoActivity extends FragmentActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.palayer_more_info, menu);
+		MenuItem webPage = menu.add(1,1,1,"Web");
+		webPage.setShowAsAction(MenuItem.SHOW_AS_ACTION_WITH_TEXT | MenuItem.SHOW_AS_ACTION_IF_ROOM);
 		return true;
 	}
 
@@ -83,7 +84,18 @@ public class PlayerMoreInfoActivity extends FragmentActivity {
 			setResult(RESULT_CANCELED, returnIntent);        
 			finish();
 			return true;
+		case 1:
+			if(player != null){
+				Intent intent = new Intent(this,PlayerWebViewActivity.class);
+				Bundle myData = new Bundle();
+				myData.putString("webpage", player.getUrl());
+				intent.putExtras(myData);
+				
+				startActivityForResult(intent, 1);
+			}
+			return true;
 		}
+		
 		return super.onOptionsItemSelected(item);
 	}
 

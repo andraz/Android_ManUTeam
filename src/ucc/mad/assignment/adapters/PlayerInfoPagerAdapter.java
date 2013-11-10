@@ -1,7 +1,9 @@
 package ucc.mad.assignment.adapters;
 
 import ucc.mad.assignment.data.Player;
+import ucc.mad.assignment.fragments.PlayerDescriptionFragment;
 import ucc.mad.assignment.fragments.PlayerInfoFragment;
+import ucc.mad.assignment.fragments.PlayerJerseyFragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -28,10 +30,10 @@ public class PlayerInfoPagerAdapter extends FragmentPagerAdapter {
 			myFragment = new PlayerInfoFragment(player);
 		}
 		else if(arg0 == 1){
-			myFragment = new PlayerInfoFragment(player);
+			myFragment = new PlayerDescriptionFragment(player);
 		}
 		else if(arg0 == 2){
-			myFragment = new PlayerInfoFragment(player);
+			myFragment = new PlayerJerseyFragment(player);
 		}
 		return myFragment;
 	}
@@ -50,7 +52,7 @@ public class PlayerInfoPagerAdapter extends FragmentPagerAdapter {
 		case 1:
 			return "Description";
 		case 2:
-			return "Web page";
+			return "Jersey";
 		default:
 			return "";	
 		}

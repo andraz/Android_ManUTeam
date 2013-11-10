@@ -66,17 +66,7 @@
 	            android:text="Player position"
 	            android:textSize="25sp" />
         </LinearLayout>
-		<LinearLayout
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:orientation="horizontal"
-           android:layout_gravity="center" >
-    		<Button
-	             android:id="@+id/playerInfoButton"
-	             android:layout_width="wrap_content"
-	             android:layout_height="wrap_content"
-	             android:text="More info" />
-       </LinearLayout>
+
          
         
     </LinearLayout>

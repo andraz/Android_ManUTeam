@@ -7,6 +7,8 @@
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" /> 
 
     <application
         android:allowBackup="true"
@@ -37,6 +39,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ucc.mad.assignment.manuteam.PlayerDetailsActivity" />
+        </activity>
+        <activity
+            android:name="ucc.mad.assignment.manuteam.PlayerWebViewActivity"
+            android:label="@string/title_activity_player_web_view"
+            android:parentActivityName="ucc.mad.assignment.manuteam.PlayerMoreInfoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ucc.mad.assignment.manuteam.PlayerMoreInfoActivity" />
         </activity>
     </application>
 

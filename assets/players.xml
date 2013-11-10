@@ -8,12 +8,13 @@
 		    <goals>168</goals>
 		    <profileimage>giggs_profile</profileimage>
 		    <mainimage>giggs</mainimage>  
+		    <jerseyimage>giggs_jersey</jerseyimage>  
 		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
 		    <position>Midfielder</position>
 		    <description>
 	        <summary>The Ryan Giggs story goes on - and on and on - and still his powers show no sign of waning. No longer the daring, dashing left-winger who tormented full-backs but a calming influence and one of the sharpest passers around.</summary>
 	        <description>
-	            Although his legs may have lost the explosive acceleration, his brain remains ahead of his younger rivals and his ability to produce telling crosses and assists has never been better. In summary, the Welshman is a phenomenon and a footballer to be treasured and talked about in revered tones long after he eventually decides to hang up his boots.
+Although his legs may have lost the explosive acceleration, his brain remains ahead of his younger rivals and his ability to produce telling crosses and assists has never been better. In summary, the Welshman is a phenomenon and a footballer to be treasured and talked about in revered tones long after he eventually decides to hang up his boots.
 
 Bryan Robson feels that may not be until he has slipped into his 40s. A man who was not named PFA Players' Player until 2009 remains a key part of Sir Alex Ferguson's squad. An ally to the boss and an indvidual who commands total respect in the dressing room.
 
@@ -28,13 +29,14 @@ The most decorated player in the British game, the potential that earned him two
 		    <appearances>96</appearances>
 		    <goals>0</goals>
 		    <profileimage>degea_profile</profileimage>
-		    <mainimage>degea</mainimage>  
+		    <mainimage>degea</mainimage>
+		    <jerseyimage>degea_jersey</jerseyimage>   
 		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/David-De-Gea.aspx</url>
 		    <position>Goalkeeper</position>
 		    <description>
 	        <summary>David De Gea is a product of Atletico Madrid’s academy. Tall, athletic and confident with the ball, he progressed quickly through the youth ranks and spent his first professional season, 2008/09, with the club’s reserves. A first-team debut arrived early in the following term via a substitute appearance against FC Porto in the UEFA Champions League on 30 September 2009 - and thereafter he never looked back.</summary>
 	        <description>
-	            De Gea capped his maiden campaign in Atletico Madrid's first team by playing a major role in winning the UEFA Europa League - the club's first major European trophy in almost 50 years. 
+De Gea capped his maiden campaign in Atletico Madrid's first team by playing a major role in winning the UEFA Europa League - the club's first major European trophy in almost 50 years. 
 
 His already burgeoning reputation was further enhanced during his second full season in La Liga and rumours of United's interest, which had first surfaced in January 2010, were more widely circulated when the Reds' then goalkeeping coach Eric Steele was seen scouting the youngster.
 
@@ -48,17 +50,16 @@ By the end of the 2010/11 season, David was widely touted by several media outle
 		    <appearances>138</appearances>
 		    <goals>5</goals>
 		    <profileimage>rafael_profile</profileimage>
-		    <mainimage>rafael</mainimage>  
+		    <mainimage>rafael</mainimage>
+		    <jerseyimage>rafael_jersey</jerseyimage>  
 		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Rafael.aspx</url>
 		    <position>Right back</position>
 		    <description>
 	        <summary>Combining attacking ambition with defensive strength, Rafael da Silva is perhaps  the personification of the modern full-back.</summary>
 	        <description>
-	        The Brazilian starlet is already a full international, having excelled at United since making his first team debut during a 1-1 draw with Newcastle in August 2008 - a surprise outing that was prompted by an inspired display in Barry Fry's testimonial earlier in the month.
+The Brazilian starlet is already a full international, having excelled at United since making his first team debut during a 1-1 draw with Newcastle in August 2008 - a surprise outing that was prompted by an inspired display in Barry Fry's testimonial earlier in the month.
 
-Incredibly, what made Rafa's bow even more impressive was the fact he hadn't played competitively in over a year while the Reds applied for international clearance on his (and twin brother
-
-Fabio) transfer from Fluminense.
+Incredibly, what made Rafa's bow even more impressive was the fact he hadn't played competitively in over a year while the Reds applied for international clearance on his (and twin brother Fabio) transfer from Fluminense.
 
 With surpreme confidence and ambition, he made several noteworthy appearances thoughout the 2008/09 campaign, scoring his first goal at Arsenal in November before staking a claim for the full-time right-back berth ahead of Messrs Neville and Brown.
 
@@ -73,13 +74,14 @@ As a result, Sir Alex Ferguson soon offered a two-year contract extension and a 
 		    <appearances>348</appearances>
 		    <goals>7</goals>
 		    <profileimage>evra_profile</profileimage>
-		    <mainimage>evra</mainimage>  
+		    <mainimage>evra</mainimage>
+		    <jerseyimage>evra_jersey</jerseyimage>  
 		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
 		    <position>Defender</position>
 		    <description>
 	        <summary>Patrice Evra has been incredibly consistent since arriving at Old Trafford in 2006, dominating the left-back position while regularly wearing the captain's armband in the absence of Nemanja Vidic. </summary>
 	        <description>
-	            The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
+The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
 
 United beat Liverpool, Arsenal and Inter Milan to Evra's signature in January 2006 when Sir Alex
 
@@ -91,119 +93,73 @@ In fact, he was a big success at the club, having won the 2003 French League Cup
 	    </description>      
 		</person>
 		<person>
-		    <name>Patrice Evra</name>
-		    <number>3</number>
-		    <appearances>348</appearances>
-		    <goals>7</goals>
-		    <profileimage>evra_profile</profileimage>
-		    <mainimage>evra</mainimage>  
-		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
-		    <position>Defender</position>
+		    <name>Anderson</name>
+		    <number>8</number>
+		    <appearances>176</appearances>
+		    <goals>9</goals>
+		    <profileimage>anderson_profile</profileimage>
+		    <mainimage>anderson</mainimage>
+		    <jerseyimage>anderson_jersey</jerseyimage>  
+		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Anderson.aspx</url>
+		    <position>Midfielder</position>
 		    <description>
-	        <summary>Patrice Evra has been incredibly consistent since arriving at Old Trafford in 2006, dominating the left-back position while regularly wearing the captain's armband in the absence of Nemanja Vidic. </summary>
+	        <summary>When Anderson arrived at Old Trafford from FC Porto in summer 2007 he wasn't exactly a household name. But after a wondrous debut season the Brazilian's talents became well known not just in Manchester, but around the world.</summary>
 	        <description>
-	            The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
+The early Ronaldinho comparisons were inevitable given both players began their careers at Brazilian side Gremio, who Anderson Luis de Abreu Oliveira (to give his full name) joined at the age of just five.
 
-United beat Liverpool, Arsenal and Inter Milan to Evra's signature in January 2006 when Sir Alex
+But that’s really where the similarities end. Where Ronaldinho is all flicks and flamboyance, Anderson (or Ando as he is known to his team-mates) is bustling with energy and possesses
 
-Ferguson splashed the cash to shore up his defence, also bringing in the talismanic Vidic just a few days later.
+an eye for a defence-splitting pass. He has skill and technical ability in abundance, but his preference for midfield combat could bring you to question his Brazilian roots (more so if you spotted his dancing after lifting the UEFA Champions League trophy in May 2008!)
 
-Although only 24 at the time, Patrice had already been capped five times for France and was club captain at Monaco, where his reputation as an intelligent, attack-minded full-back had already been established.
-
-In fact, he was a big success at the club, having won the 2003 French League Cup before reaching the 2004 UEFA Champions League final under manager Didier Deschamps, who was admittedly a big influence: "He transmitted to me the bug of winning at any price."</description>
-	    </description>      
+At Gremio, Anderson made his first appearance aged just 16. He is most fondly remembered for a wonder goal against Nautico in November 2005, which earned a 1-0 win and promotion back to the top flight. He also earned a reputation internationally, shining with Brazil at the 2005 U17 World Cup, where he won the Adidas Golden Ball for most valuable player.</description>
+	    	</description>      
 		</person>
 		<person>
-		    <name>Patrice Evra</name>
-		    <number>3</number>
-		    <appearances>348</appearances>
-		    <goals>7</goals>
-		    <profileimage>evra_profile</profileimage>
-		    <mainimage>evra</mainimage>  
-		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
-		    <position>Defender</position>
+		    <name>Michael Carrick</name>
+		    <number>16</number>
+		    <appearances>333</appearances>
+		    <goals>21</goals>
+		    <profileimage>carrick_profile</profileimage>
+		    <mainimage>carrick</mainimage>
+		    <jerseyimage>carrick_jersey</jerseyimage>  
+		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Michael-Carrick.aspx</url>
+		    <position>Midfielder</position>
 		    <description>
-	        <summary>Patrice Evra has been incredibly consistent since arriving at Old Trafford in 2006, dominating the left-back position while regularly wearing the captain's armband in the absence of Nemanja Vidic. </summary>
+	        <summary>Michael Carrick has established himself as one of the most effective midfielders in the Barclays Premier League since his arrival from Tottenham Hotspur in 2006.</summary>
 	        <description>
-	            The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
+Understated, and often underrated, Carrick has become a lynchpin of the United engine room, dictating play with his considered, refined style.
 
-United beat Liverpool, Arsenal and Inter Milan to Evra's signature in January 2006 when Sir Alex
+In 2012/13 he gained wider acclaim for his performances, earning a spot in the PFA Premier League Team of the Season and being voted Players' Player of the Year by his United team-mates.
 
-Ferguson splashed the cash to shore up his defence, also bringing in the talismanic Vidic just a few days later.
+His influence on the Reds' squad was evident long before the 20th title-winning campaign, though. During his debut
 
-Although only 24 at the time, Patrice had already been capped five times for France and was club captain at Monaco, where his reputation as an intelligent, attack-minded full-back had already been established.
+campaign of 2006/07, he carved out a formidable partnership with Paul Scholes and began to mature into one of English football's most sophisticated and classy passing midfielders, quickly bagging the maiden honour of his professional career with the Premier League title.
 
-In fact, he was a big success at the club, having won the 2003 French League Cup before reaching the 2004 UEFA Champions League final under manager Didier Deschamps, who was admittedly a big influence: "He transmitted to me the bug of winning at any price."</description>
-	    </description>      
+A calming influence and the master of the interception, he also starred as the Reds conquered England and Europe in 2007/08, beating Chelsea to both the Premier League and Champions League before penning a new, four-ye</description>
+	    	</description>      
 		</person>
 		<person>
-		    <name>Patrice Evra</name>
-		    <number>3</number>
-		    <appearances>348</appearances>
-		    <goals>7</goals>
-		    <profileimage>evra_profile</profileimage>
-		    <mainimage>evra</mainimage>  
-		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
+		    <name>Jonny Evans</name>
+		    <number>6</number>
+		    <appearances>162</appearances>
+		    <goals>5</goals>
+		    <profileimage>evans_profile</profileimage>
+		    <mainimage>evans</mainimage>
+		    <jerseyimage>evans_jersey</jerseyimage>  
+		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Jonny-Evans.aspx</url>
 		    <position>Defender</position>
 		    <description>
-	        <summary>Patrice Evra has been incredibly consistent since arriving at Old Trafford in 2006, dominating the left-back position while regularly wearing the captain's armband in the absence of Nemanja Vidic. </summary>
+	        <summary>When Anderson arrived at Old Trafford from FC Porto in summer 2007 he wasn't exactly a household name. But after a wondrous debut season the Brazilian's talents became well known not just in Manchester, but around the world.Belfast-born Jonny Evans is a tall and agile centre-back. An intelligent defender, he combines an uncompromising physical approach with the ability to pass the ball out from the back.</summary>
 	        <description>
-	            The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
+Jonny has risen through the United ranks to become an integral part of the first-team squad and 2011/12 was the season in which he truly came to the fore. The Northern Ireland international - who received his first call-up before he had even made his United debut - has blossomed into one of the best young defenders around.
 
-United beat Liverpool, Arsenal and Inter Milan to Evra's signature in January 2006 when Sir Alex
+Handed a Champions League squad number at the start of the 2005/06 season, aged just 17, Evans was a burgeoning talent
 
-Ferguson splashed the cash to shore up his defence, also bringing in the talismanic Vidic just a few days later.
+waiting to burst to prominence. Given his opportunity by the sale of Gerard Pique in the summer of 2008, Jonny did that during the course of the 2008/09 campaign.
 
-Although only 24 at the time, Patrice had already been capped five times for France and was club captain at Monaco, where his reputation as an intelligent, attack-minded full-back had already been established.
-
-In fact, he was a big success at the club, having won the 2003 French League Cup before reaching the 2004 UEFA Champions League final under manager Didier Deschamps, who was admittedly a big influence: "He transmitted to me the bug of winning at any price."</description>
-	    </description>      
+Whenever called upon, Jonny's ice-cool calm is immediately apparent, even on huge stages like the San Siro or Stamford Bridge. His capacity for handling pressure is incredible, and stems partially from the extensive experience he gained out on loan.	</description>      	
+			</description>      
 		</person>
-		<person>
-		    <name>Patrice Evra</name>
-		    <number>3</number>
-		    <appearances>348</appearances>
-		    <goals>7</goals>
-		    <profileimage>evra_profile</profileimage>
-		    <mainimage>evra</mainimage>  
-		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
-		    <position>Defender</position>
-		    <description>
-	        <summary>Patrice Evra has been incredibly consistent since arriving at Old Trafford in 2006, dominating the left-back position while regularly wearing the captain's armband in the absence of Nemanja Vidic. </summary>
-	        <description>
-	            The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
-
-United beat Liverpool, Arsenal and Inter Milan to Evra's signature in January 2006 when Sir Alex
-
-Ferguson splashed the cash to shore up his defence, also bringing in the talismanic Vidic just a few days later.
-
-Although only 24 at the time, Patrice had already been capped five times for France and was club captain at Monaco, where his reputation as an intelligent, attack-minded full-back had already been established.
-
-In fact, he was a big success at the club, having won the 2003 French League Cup before reaching the 2004 UEFA Champions League final under manager Didier Deschamps, who was admittedly a big influence: "He transmitted to me the bug of winning at any price."</description>
-	    </description>      
-		</person>
-		<person>
-		    <name>Patrice Evra</name>
-		    <number>3</number>
-		    <appearances>348</appearances>
-		    <goals>7</goals>
-		    <profileimage>evra_profile</profileimage>
-		    <mainimage>evra</mainimage>  
-		    <url>http://www.manutd.com/en/Players-And-Staff/First-Team/Ryan-Giggs.aspx</url>
-		    <position>Defender</position>
-		    <description>
-	        <summary>Patrice Evra has been incredibly consistent since arriving at Old Trafford in 2006, dominating the left-back position while regularly wearing the captain's armband in the absence of Nemanja Vidic. </summary>
-	        <description>
-	            The Frenchman's passionate persona has also made him a cult hero on the terraces and few will have felt more pride when the Reds reclaimed the Barclays Premier League at a canter in 2012/13 following the drama and heartbreak of the previous season.
-
-United beat Liverpool, Arsenal and Inter Milan to Evra's signature in January 2006 when Sir Alex
-
-Ferguson splashed the cash to shore up his defence, also bringing in the talismanic Vidic just a few days later.
-
-Although only 24 at the time, Patrice had already been capped five times for France and was club captain at Monaco, where his reputation as an intelligent, attack-minded full-back had already been established.
-
-In fact, he was a big success at the club, having won the 2003 French League Cup before reaching the 2004 UEFA Champions League final under manager Didier Deschamps, who was admittedly a big influence: "He transmitted to me the bug of winning at any price."</description>
-	    </description>      
-		</person>
+		
 	</players>
 </dataroot>

@@ -24,6 +24,8 @@ public class Player implements Serializable, Comparable<Player> {
 	@Element
 	private String mainimage;
 	@Element
+	private String jerseyimage;
+	@Element
 	private String url;
 	@Element
 	private String position;
@@ -86,6 +88,13 @@ public class Player implements Serializable, Comparable<Player> {
 		this.description = description;
 	}
 	
+	
+	public String getJerseyimage() {
+		return jerseyimage;
+	}
+	public void setJerseyimage(String jerseyimage) {
+		this.jerseyimage = jerseyimage;
+	}
 	@Override
 	public int compareTo(Player another) {
 		if(Integer.valueOf(this.getNumber()) < Integer.valueOf(another.getNumber())){
